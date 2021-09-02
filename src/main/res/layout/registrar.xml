@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnRegRegistrar"
+        android:layout_width="376dp"
+        android:layout_height="75dp"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="#26FF00"
+        android:text="Registrar"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="494dp" />
+
+    <Button
+        android:id="@+id/btnRegCancelar"
+        android:layout_width="376dp"
+        android:layout_height="71dp"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="#FF0000"
+        android:text="Cancelar"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="592dp" />
+
+    <EditText
+        android:id="@+id/RegApellido"
+        android:layout_width="379dp"
+        android:layout_height="75dp"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:hint="Apellido"
+        android:inputType="textEmailAddress"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="373dp" />
+
+    <EditText
+        android:id="@+id/RegNombre"
+        android:layout_width="380dp"
+        android:layout_height="84dp"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:hint="Nombre"
+        android:inputType="textEmailAddress"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <EditText
+        android:id="@+id/RegPass"
+        android:layout_width="382dp"
+        android:layout_height="79dp"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:hint="Password"
+        android:inputType="textEmailAddress"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <EditText
+        android:id="@+id/RegUser"
+        android:layout_width="386dp"
+        android:layout_height="71dp"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:hint="Usuario"
+        android:inputType="textEmailAddress"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="56dp" />
+</android.support.constraint.ConstraintLayout>

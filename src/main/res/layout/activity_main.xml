@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/User"
+        android:layout_width="363dp"
+        android:layout_height="78dp"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:hint="Usuario"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="155dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/Pass"
+        android:layout_width="364dp"
+        android:layout_height="63dp"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="254dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="366dp"
+        android:layout_height="74dp"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="#FF0000"
+        android:text="Entrar"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="342dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="366dp"
+        android:layout_height="74dp"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="#0022FF"
+        android:text="Registrar"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="453dp"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>

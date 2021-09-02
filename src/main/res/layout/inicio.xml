@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="376dp"
+        android:layout_height="75dp"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="#26FF00"
+        android:text="Registrar"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="494dp" />
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="376dp"
+        android:layout_height="75dp"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="#26FF00"
+        android:text="Registrar"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="494dp" />
+    <Button
+        android:id="@+id/btnMostrar"
+        android:layout_width="376dp"
+        android:layout_height="75dp"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="#26FF00"
+        android:text="Registrar"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="494dp" />
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="376dp"
+        android:layout_height="75dp"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="#26FF00"
+        android:text="Registrar"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="494dp" />
+    <TextView
+        android:id="@+id/nombreUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</android.support.constraint.ConstraintLayout>
